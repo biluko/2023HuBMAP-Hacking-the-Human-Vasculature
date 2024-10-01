@@ -8,11 +8,11 @@
 3. 推理策略：每个单模型都采用多种尺寸进行TTA推理，以NMS算法融合预测结果，在此基础将不同模型的预测结果继续使用NMS融合得到最终预测，此阶段的NMS的IOU选择阈值与bbox分数过滤阈值均使用验证集来获取最佳。
 
 ## 特征提取Backbone
-### swin_transformer
+### SwinTransformer
 
-### convnext-xlarge,
+### Convnext-xlarge
 
-### efficientnet-b8
+### Efficientnet-b8
 
 ## 检测框架
 来自MMDetection的Cascade Mask R-CNN
